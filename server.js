@@ -92,6 +92,7 @@ const init = async () => {
      INSERT INTO employees(name, department_id) VALUES ('Jane Doe', (SELECT id FROM departments WHERE name = 'Engineering'));
       INSERT INTO employees(name, department_id) VALUES ('John Smith', (SELECT id FROM departments WHERE name = 'Marketing'));
       INSERT INTO employees(name, department_id) VALUES ('Justin Doe', (SELECT id FROM departments WHERE name = 'Marketing'));
+      INSERT INTO employees(name, department_id) VALUES ('Taylor Swith', (SELECT id FROM departments WHERE name = 'Engineering'));
 
     `;
     console.log("seeding data");
